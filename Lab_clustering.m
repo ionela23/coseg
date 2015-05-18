@@ -2,7 +2,7 @@
 close all;
 clc;
 %run using matlab /r "img=imagename;n_col=number;clustering"
-img = imread('mushroom.jpg');
+img = imread('.\images\mushroom.jpg');
 %imshow(img);
 cform = makecform('srgb2lab');
 lab_img = applycform(img,cform);
